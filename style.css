@@ -71,6 +71,7 @@ footer {
   align-items: center;
   text-align: center;
   gap: 2rem;
+  background-color: #fafafa;
 }
 
 .container h3 {
