@@ -9,7 +9,7 @@
   -moz-osx-font-smoothing: grayscale;
   --background-theme: #a50036;
   --text-theme: #f4f4f5;
-  --text-theme-hover: #e4e4e7;
+  --text-theme-secondary: #e4e4e7;
 }
 
 /* HEADER / MENU SUPERIOR */
@@ -38,7 +38,7 @@ header nav a {
 }
 
 header nav a:hover {
-  color: var(--text-theme-hover);
+  color: var(--text-theme-secondary);
 }
 
 /* FOOTER / MENU INFERIOR */
