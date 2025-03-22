@@ -1,0 +1,83 @@
+
+/* CONFIG INICIAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --background-theme: #a50036;
+  --text-theme: #f4f4f5;
+  --text-theme-hover: #e4e4e7;
+}
+
+/* HEADER / MENU SUPERIOR */
+header {
+  padding: 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-theme);
+  color: var(--text-theme);
+  user-select: none;
+}
+
+header nav {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+header nav a {
+  color: var(--text-theme);
+  font-weight: 600;
+  outline-style: none;
+}
+
+header nav a:hover {
+  color: var(--text-theme-hover);
+}
+
+/* FOOTER / MENU INFERIOR */
+
+footer {
+  background-color: var(--background-theme);
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-theme);
+  font-weight: 600;
+}
+
+/* CONTAINER / DIV QUE CONTÉM O CONTEÚDO */
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem auto;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.container h3 {
+  font-size: 1.875rem;
+  line-height: calc(2.25 / 1.875);
+}
+
+.container p {
+  font-size: 1.25rem;
+  line-height: calc(1.75 / 1.25);
+}
+
+.container a {
+  color: var(--background-theme);
+}
+
+.container .formula {
+  font-size: 1.5rem;
+  line-height: calc(2 / 1.5);
+}
