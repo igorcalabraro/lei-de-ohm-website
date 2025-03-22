@@ -12,6 +12,12 @@
   --text-theme-secondary: #e4e4e7;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 /* HEADER / MENU SUPERIOR */
 header {
   padding: 2rem 6rem;
@@ -44,6 +50,7 @@ header nav a:hover {
 /* FOOTER / MENU INFERIOR */
 
 footer {
+  margin-top: auto;
   background-color: var(--background-theme);
   padding: 1rem;
   text-align: center;
@@ -56,8 +63,10 @@ footer {
 .container {
   width: 90%;
   display: flex;
+  flex: 1;
   flex-direction: column;
   margin: 0.5rem auto;
+  justify-content: center;
   align-items: center;
   text-align: center;
   gap: 2rem;
