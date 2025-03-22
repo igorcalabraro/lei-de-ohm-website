@@ -8,6 +8,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --background-theme: #a50036;
+  --background-theme-secondary: #8b0836;
   --text-theme: #f4f4f5;
   --text-theme-secondary: #e4e4e7;
 }
@@ -84,6 +85,10 @@ footer {
 
 .container a {
   color: var(--background-theme);
+}
+
+.container a:hover {
+  color: var(--background-theme-secondary);
 }
 
 .container .formula {
