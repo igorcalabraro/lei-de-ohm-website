@@ -71,6 +71,7 @@ ul {
   flex: 1;
   flex-direction: column;
   margin: 0.5rem auto;
+  padding-top: 2rem;
   justify-content: center;
   align-items: center;
   text-align: center;
