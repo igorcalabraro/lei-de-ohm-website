@@ -59,6 +59,10 @@ footer {
   font-weight: 600;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* CONTAINER / DIV QUE CONTÉM O CONTEÚDO */
 
 .container {
