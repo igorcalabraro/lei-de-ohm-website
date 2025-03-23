@@ -79,7 +79,7 @@ footer {
   line-height: calc(2.25 / 1.875);
 }
 
-.container p {
+.container p, .container span {
   font-size: 1.25rem;
   line-height: calc(1.75 / 1.25);
 }
