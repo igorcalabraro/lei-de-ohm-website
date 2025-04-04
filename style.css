@@ -91,8 +91,12 @@ ul {
   box-shadow: var(--shadow);
 }
 
-.container section .contact {
-  width: 90%;
+.container .contact a {
+  font-size: 1.5rem;
+  line-height: calc(2 / 1.5);
+  font-weight: 600;
+}
+
 }
 
 .container h3 {
