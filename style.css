@@ -112,6 +112,11 @@ ul {
   line-height: calc(2 / 1.5);
 }
 
+.container h5 {
+  font-style: 1.25rem;
+  line-height: calc(1.75 / 1.25);
+}
+
 .container p, .container span, .container li {
   font-size: 1.25rem;
   line-height: calc(1.75 / 1.25);
